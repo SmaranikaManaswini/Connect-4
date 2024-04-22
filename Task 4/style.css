@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    text-align: center;
+    background:linear-gradient(rgb(227, 123, 227),rgb(73, 4, 73),rgb(17, 1, 17));
+    height: 100vh;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom:5px;
+    text-shadow: 0 0 20px black,
+    0 0 40px black;
+}
+h2{
+    text-shadow: 0 0 20px black,
+    0 0 40px black;
+}
+#board{
+    height: 470px;
+    width: 520px;
+    background-color: blue;
+    border: 10px solid navy;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0 0 20px aliceblue,
+    0 0 40px aliceblue;
+}
+.tile{
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 5px;
+    border: 5px solid navy;
+}
+.red-piece{
+    background-color: red;
+}
+.yellow-piece{
+    background-color: yellow;
+}
+button{
+    margin: 15px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    background-color:black;
+    border: 2px solid greenyellow;
+    box-shadow: 0 0 20px greenyellow,
+    0 0 40px greenyellow;
+    border-radius: 30px;
+    font-size:20px;
+}
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 15px darkmagenta;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background:darkmagenta;
+}
